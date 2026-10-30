@@ -1,9 +1,32 @@
-abbreviation: FIN
-description: Reference catalog for Financial Resource entities. Bootstrapped from
-  dea-metaframework/tools/catalog-repo-template/.
+# Metamodel Pointer — Financial Resource
+#
+# Two consumers, two blocks (see FOUNDATIONS §5):
+#   - the top-level identity keys are consumed by the vendored
+#     regenerate_catalog.py to build CATALOG.yaml's catalog block;
+#   - the `metamodel:` allocation block is validated by
+#     dea-architecture-framework validate-against-model.yml
+#     against the pinned root-model ref (v0.8.0), and asserted
+#     locally by scripts/check_pointer.py.
+#
+# Allocation changes go through the root model, not this file.
 id: dea:catalog-financial-resources
-metamodel_version: 1.0.0
 name: Financial Resource
-owner: TechNeHub Labs
-status: active
+abbreviation: FR
 version: 0.1.0
+status: active
+metamodel_version: 1.0.0
+owner: TechNeHub Labs
+description: |
+  Liquid or near-liquid economic value the enterprise holds (accounts, instruments, funding lines). Catalog instances include cash, credit facilities, and similar.
+metamodel:
+  building_block: L3-resources
+  class_alias: FR
+  entity_id: dea:entity-financial-resource
+  layer: L3
+  version: v0.8.0
+  viewer_url: https://technehub-labs.github.io/metamodel/?entity=FR
+links:
+  metamodel_repo: https://github.com/technehub-labs/dea-metamodel
+  root_model: https://github.com/technehub-labs/dea-architecture-framework
+  viewer: https://technehub-labs.github.io/metamodel/?entity=FR
+  github: https://github.com/technehub-labs/dea-catalog-financial-resources
