@@ -1,0 +1,9 @@
+abbreviation: FIN
+description: Reference catalog for Financial Resource entities. Bootstrapped from
+  dea-metaframework/tools/catalog-repo-template/.
+id: dea:catalog-financial-resources
+metamodel_version: 1.0.0
+name: Financial Resource
+owner: TechNeHub Labs
+status: active
+version: 0.1.0
