@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ BEATW
 name: BEATW — Heartbeam, Inc. - Warrant
-description: Heartbeam, Inc. - Warrant — a listed security traded on the NASDAQ Stock Market under symbol
-  BEATW (market category S). Published in the NASDAQ Trader symbol directory.
+description: Heartbeam, Inc. - Warrant — a listed security traded on the NASDAQ Stock
+  Market under symbol BEATW (market category S). Published in the NASDAQ Trader symbol
+  directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/BEATW (NASDAQ Trader symbol directory listing:
-      BEATW)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/BEATW (NASDAQ Trader
+      symbol directory listing: BEATW)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: beatw-heartbeam-inc-warrant
+assigned_id: dea:financial-resource-beatw-heartbeam-inc-warrant-atpv3m
+admitted: '2026-11-15'

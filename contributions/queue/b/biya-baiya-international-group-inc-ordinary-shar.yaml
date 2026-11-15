@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ BIYA
 name: BIYA — Baiya International Group Inc.  - Ordinary Shares
-description: Baiya International Group Inc.  - Ordinary Shares — a listed security traded on the NASDAQ
-  Stock Market under symbol BIYA (market category S). Published in the NASDAQ Trader symbol directory.
+description: Baiya International Group Inc.  - Ordinary Shares — a listed security
+  traded on the NASDAQ Stock Market under symbol BIYA (market category S). Published
+  in the NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/BIYA (NASDAQ Trader symbol directory listing:
-      BIYA)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/BIYA (NASDAQ Trader
+      symbol directory listing: BIYA)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: biya-baiya-international-group-inc-ordinary-shar
+assigned_id: dea:financial-resource-biya-baiya-international-group-inc-ordinary-shar-uy73br
+admitted: '2026-11-15'

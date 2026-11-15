@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ BHFAN
-name: BHFAN — Brighthouse Financial, Inc. - depositary shares, each representing a 1/1,000th interest
-  in a share of 5.375% Non-Cumulative Preferred Stock, Series C
-description: Brighthouse Financial, Inc. - depositary shares, each representing a 1/1,000th interest in
-  a share of 5.375% Non-Cumulative Preferred Stock, Series C — a listed security traded on the NASDAQ
-  Stock Market under symbol BHFAN (market category Q). Published in the NASDAQ Trader symbol directory.
+name: BHFAN — Brighthouse Financial, Inc. - depositary shares, each representing a
+  1/1,000th interest in a share of 5.375% Non-Cumulative Preferred Stock, Series C
+description: Brighthouse Financial, Inc. - depositary shares, each representing a
+  1/1,000th interest in a share of 5.375% Non-Cumulative Preferred Stock, Series C
+  — a listed security traded on the NASDAQ Stock Market under symbol BHFAN (market
+  category Q). Published in the NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/BHFAN (NASDAQ Trader symbol directory listing:
-      BHFAN)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/BHFAN (NASDAQ Trader
+      symbol directory listing: BHFAN)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: bhfan-brighthouse-financial-inc-depositary-share
+assigned_id: dea:financial-resource-bhfan-brighthouse-financial-inc-depositary-share-d2mpcg
+admitted: '2026-11-15'

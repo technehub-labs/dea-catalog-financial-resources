@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ BGUS
 name: BGUS — Baillie Gifford U.S. Equity Growth ETF
-description: Baillie Gifford U.S. Equity Growth ETF — a listed exchange-traded fund traded on the NASDAQ
-  Stock Market under symbol BGUS (market category G). Published in the NASDAQ Trader symbol directory.
+description: Baillie Gifford U.S. Equity Growth ETF — a listed exchange-traded fund
+  traded on the NASDAQ Stock Market under symbol BGUS (market category G). Published
+  in the NASDAQ Trader symbol directory.
 liquidity: near-liquid
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/BGUS (NASDAQ Trader symbol directory listing:
-      BGUS)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/BGUS (NASDAQ Trader
+      symbol directory listing: BGUS)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - etf
 slug: bgus-baillie-gifford-u-s-equity-growth-etf
+assigned_id: dea:financial-resource-bgus-baillie-gifford-u-s-equity-growth-etf-k53vk5
+admitted: '2026-11-15'

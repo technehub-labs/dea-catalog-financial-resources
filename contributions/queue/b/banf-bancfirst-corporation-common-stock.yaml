@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ BANF
 name: BANF — BancFirst Corporation - Common Stock
-description: BancFirst Corporation - Common Stock — a listed security traded on the NASDAQ Stock Market
-  under symbol BANF (market category Q). Published in the NASDAQ Trader symbol directory.
+description: BancFirst Corporation - Common Stock — a listed security traded on the
+  NASDAQ Stock Market under symbol BANF (market category Q). Published in the NASDAQ
+  Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/BANF (NASDAQ Trader symbol directory listing:
-      BANF)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/BANF (NASDAQ Trader
+      symbol directory listing: BANF)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: banf-bancfirst-corporation-common-stock
+assigned_id: dea:financial-resource-banf-bancfirst-corporation-common-stock-8nwm5d
+admitted: '2026-11-15'

@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ CHSCP
 name: CHSCP — CHS Inc - 8%  Cumulative Redeemable Preferred Stock
-description: CHS Inc - 8%  Cumulative Redeemable Preferred Stock — a listed security traded on the NASDAQ
-  Stock Market under symbol CHSCP (market category Q). Published in the NASDAQ Trader symbol directory.
+description: CHS Inc - 8%  Cumulative Redeemable Preferred Stock — a listed security
+  traded on the NASDAQ Stock Market under symbol CHSCP (market category Q). Published
+  in the NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/CHSCP (NASDAQ Trader symbol directory listing:
-      CHSCP)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/CHSCP (NASDAQ Trader
+      symbol directory listing: CHSCP)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: chscp-chs-inc-8-cumulative-redeemable-preferred
+assigned_id: dea:financial-resource-chscp-chs-inc-8-cumulative-redeemable-preferred-eefpba
+admitted: '2026-11-15'

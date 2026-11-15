@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ CHSCM
-name: CHSCM — CHS Inc - Class B Reset Rate Cumulative Redeemable Preferred Stock, Series 3
-description: CHS Inc - Class B Reset Rate Cumulative Redeemable Preferred Stock, Series 3 — a listed security
-  traded on the NASDAQ Stock Market under symbol CHSCM (market category Q). Published in the NASDAQ Trader
-  symbol directory.
+name: CHSCM — CHS Inc - Class B Reset Rate Cumulative Redeemable Preferred Stock,
+  Series 3
+description: CHS Inc - Class B Reset Rate Cumulative Redeemable Preferred Stock, Series
+  3 — a listed security traded on the NASDAQ Stock Market under symbol CHSCM (market
+  category Q). Published in the NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/CHSCM (NASDAQ Trader symbol directory listing:
-      CHSCM)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/CHSCM (NASDAQ Trader
+      symbol directory listing: CHSCM)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: chscm-chs-inc-class-b-reset-rate-cumulative-rede
+assigned_id: dea:financial-resource-chscm-chs-inc-class-b-reset-rate-cumulative-rede-amusz9
+admitted: '2026-11-15'

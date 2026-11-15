@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ COIG
 name: COIG — Leverage Shares 2X Long COIN Daily ETF
-description: Leverage Shares 2X Long COIN Daily ETF — a listed exchange-traded fund traded on the NASDAQ
-  Stock Market under symbol COIG (market category G). Published in the NASDAQ Trader symbol directory.
+description: Leverage Shares 2X Long COIN Daily ETF — a listed exchange-traded fund
+  traded on the NASDAQ Stock Market under symbol COIG (market category G). Published
+  in the NASDAQ Trader symbol directory.
 liquidity: near-liquid
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/COIG (NASDAQ Trader symbol directory listing:
-      COIG)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/COIG (NASDAQ Trader
+      symbol directory listing: COIG)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - etf
 slug: coig-leverage-shares-2x-long-coin-daily-etf
+assigned_id: dea:financial-resource-coig-leverage-shares-2x-long-coin-daily-etf-2yr95v
+admitted: '2026-11-15'

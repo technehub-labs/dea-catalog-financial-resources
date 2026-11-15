@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ ASRV
 name: ASRV — AmeriServ Financial Inc. - Common Stock
-description: AmeriServ Financial Inc. - Common Stock — a listed security traded on the NASDAQ Stock Market
-  under symbol ASRV (market category G). Published in the NASDAQ Trader symbol directory.
+description: AmeriServ Financial Inc. - Common Stock — a listed security traded on
+  the NASDAQ Stock Market under symbol ASRV (market category G). Published in the
+  NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/ASRV (NASDAQ Trader symbol directory listing:
-      ASRV)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/ASRV (NASDAQ Trader
+      symbol directory listing: ASRV)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: asrv-ameriserv-financial-inc-common-stock
+assigned_id: dea:financial-resource-asrv-ameriserv-financial-inc-common-stock-pkghg3
+admitted: '2026-11-15'

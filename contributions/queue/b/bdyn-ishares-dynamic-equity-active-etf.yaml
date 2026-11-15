@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ BDYN
 name: BDYN — iShares Dynamic Equity Active ETF
-description: iShares Dynamic Equity Active ETF — a listed exchange-traded fund traded on the NASDAQ Stock
-  Market under symbol BDYN (market category G). Published in the NASDAQ Trader symbol directory.
+description: iShares Dynamic Equity Active ETF — a listed exchange-traded fund traded
+  on the NASDAQ Stock Market under symbol BDYN (market category G). Published in the
+  NASDAQ Trader symbol directory.
 liquidity: near-liquid
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/BDYN (NASDAQ Trader symbol directory listing:
-      BDYN)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/BDYN (NASDAQ Trader
+      symbol directory listing: BDYN)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - etf
 slug: bdyn-ishares-dynamic-equity-active-etf
+assigned_id: dea:financial-resource-bdyn-ishares-dynamic-equity-active-etf-d2cnbu
+admitted: '2026-11-15'

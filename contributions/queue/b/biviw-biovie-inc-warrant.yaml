@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ BIVIW
 name: BIVIW — BioVie Inc. - Warrant
-description: BioVie Inc. - Warrant — a listed security traded on the NASDAQ Stock Market under symbol
-  BIVIW (market category S). Published in the NASDAQ Trader symbol directory.
+description: BioVie Inc. - Warrant — a listed security traded on the NASDAQ Stock
+  Market under symbol BIVIW (market category S). Published in the NASDAQ Trader symbol
+  directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/BIVIW (NASDAQ Trader symbol directory listing:
-      BIVIW)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/BIVIW (NASDAQ Trader
+      symbol directory listing: BIVIW)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: biviw-biovie-inc-warrant
+assigned_id: dea:financial-resource-biviw-biovie-inc-warrant-ctyvs3
+admitted: '2026-11-15'

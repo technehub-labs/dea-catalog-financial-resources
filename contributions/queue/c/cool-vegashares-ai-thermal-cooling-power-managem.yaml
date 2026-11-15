@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ COOL
 name: COOL — VegaShares AI Thermal, Cooling & Power Management ETF
-description: VegaShares AI Thermal, Cooling & Power Management ETF — a listed exchange-traded fund traded
-  on the NASDAQ Stock Market under symbol COOL (market category G). Published in the NASDAQ Trader symbol
-  directory.
+description: VegaShares AI Thermal, Cooling & Power Management ETF — a listed exchange-traded
+  fund traded on the NASDAQ Stock Market under symbol COOL (market category G). Published
+  in the NASDAQ Trader symbol directory.
 liquidity: near-liquid
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/COOL (NASDAQ Trader symbol directory listing:
-      COOL)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/COOL (NASDAQ Trader
+      symbol directory listing: COOL)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - etf
 slug: cool-vegashares-ai-thermal-cooling-power-managem
+assigned_id: dea:financial-resource-cool-vegashares-ai-thermal-cooling-power-managem-upuuvw
+admitted: '2026-11-15'

@@ -1,0 +1,39 @@
+id: dea:financial-resource-agncl-agnc-investment-corp-depositary-shares-eac-qg99vd
+type: FinancialResource
+name: AGNCL — AGNC Investment Corp. - Depositary Shares Each Representing a 1/1,000th
+  Interest in a Share of 7.75% Series G Fixed-Rate Reset Cumulative Redeemable Preferred
+  Stock
+description: AGNC Investment Corp. - Depositary Shares Each Representing a 1/1,000th
+  Interest in a Share of 7.75% Series G Fixed-Rate Reset Cumulative Redeemable Preferred
+  Stock — a listed security traded on the NASDAQ Stock Market under symbol AGNCL (market
+  category Q). Published in the NASDAQ Trader symbol directory.
+version: 0.1.0
+lifecycle_status: proposed
+liquidity: instrument
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://www.nasdaq.com/market-activity/stocks/AGNCL (NASDAQ Trader
+      symbol directory listing: AGNCL)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-15'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- nasdaq
+- listed-security

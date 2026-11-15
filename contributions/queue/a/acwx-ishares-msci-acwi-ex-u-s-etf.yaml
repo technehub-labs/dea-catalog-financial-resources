@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ ACWX
 name: ACWX — iShares MSCI ACWI ex U.S. ETF
-description: iShares MSCI ACWI ex U.S. ETF — a listed exchange-traded fund traded on the NASDAQ Stock
-  Market under symbol ACWX (market category G). Published in the NASDAQ Trader symbol directory.
+description: iShares MSCI ACWI ex U.S. ETF — a listed exchange-traded fund traded
+  on the NASDAQ Stock Market under symbol ACWX (market category G). Published in the
+  NASDAQ Trader symbol directory.
 liquidity: near-liquid
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/ACWX (NASDAQ Trader symbol directory listing:
-      ACWX)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/ACWX (NASDAQ Trader
+      symbol directory listing: ACWX)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - etf
 slug: acwx-ishares-msci-acwi-ex-u-s-etf
+assigned_id: dea:financial-resource-acwx-ishares-msci-acwi-ex-u-s-etf-a684ua
+admitted: '2026-11-15'

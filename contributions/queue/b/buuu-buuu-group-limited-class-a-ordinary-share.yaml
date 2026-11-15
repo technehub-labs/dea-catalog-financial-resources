@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ BUUU
 name: BUUU — BUUU Group Limited - Class A Ordinary Share
-description: BUUU Group Limited - Class A Ordinary Share — a listed security traded on the NASDAQ Stock
-  Market under symbol BUUU (market category S). Published in the NASDAQ Trader symbol directory.
+description: BUUU Group Limited - Class A Ordinary Share — a listed security traded
+  on the NASDAQ Stock Market under symbol BUUU (market category S). Published in the
+  NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/BUUU (NASDAQ Trader symbol directory listing:
-      BUUU)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/BUUU (NASDAQ Trader
+      symbol directory listing: BUUU)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: buuu-buuu-group-limited-class-a-ordinary-share
+assigned_id: dea:financial-resource-buuu-buuu-group-limited-class-a-ordinary-share-ffuzuk
+admitted: '2026-11-15'

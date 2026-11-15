@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ APURR
 name: APURR — Aperture AC - Rights
-description: Aperture AC - Rights — a listed security traded on the NASDAQ Stock Market under symbol APURR
-  (market category S). Published in the NASDAQ Trader symbol directory.
+description: Aperture AC - Rights — a listed security traded on the NASDAQ Stock Market
+  under symbol APURR (market category S). Published in the NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/APURR (NASDAQ Trader symbol directory listing:
-      APURR)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/APURR (NASDAQ Trader
+      symbol directory listing: APURR)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: apurr-aperture-ac-rights
+assigned_id: dea:financial-resource-apurr-aperture-ac-rights-kkcvv2
+admitted: '2026-11-15'

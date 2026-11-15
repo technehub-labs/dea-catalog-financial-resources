@@ -1,24 +1,28 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ BUSEP
-name: BUSEP — First Busey Corporation - Depositary Shares, Each Representing a 1/40th Interest in a Share
-  of 8.25% Fixed-Rate Series B Non-Cumulative Perpetual Preferred Stock, $0.001 par value
-description: First Busey Corporation - Depositary Shares, Each Representing a 1/40th Interest in a Share
-  of 8.25% Fixed-Rate Series B Non-Cumulative Perpetual Preferred Stock, $0.001 par value — a listed security
-  traded on the NASDAQ Stock Market under symbol BUSEP (market category Q). Published in the NASDAQ Trader
-  symbol directory.
+name: BUSEP — First Busey Corporation - Depositary Shares, Each Representing a 1/40th
+  Interest in a Share of 8.25% Fixed-Rate Series B Non-Cumulative Perpetual Preferred
+  Stock, $0.001 par value
+description: First Busey Corporation - Depositary Shares, Each Representing a 1/40th
+  Interest in a Share of 8.25% Fixed-Rate Series B Non-Cumulative Perpetual Preferred
+  Stock, $0.001 par value — a listed security traded on the NASDAQ Stock Market under
+  symbol BUSEP (market category Q). Published in the NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/BUSEP (NASDAQ Trader symbol directory listing:
-      BUSEP)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/BUSEP (NASDAQ Trader
+      symbol directory listing: BUSEP)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: busep-first-busey-corporation-depositary-shares
+assigned_id: dea:financial-resource-busep-first-busey-corporation-depositary-shares-2fw8rv
+admitted: '2026-11-15'

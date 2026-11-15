@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ BSCW
 name: BSCW — Invesco BulletShares 2032 Corporate Bond ETF
-description: Invesco BulletShares 2032 Corporate Bond ETF — a listed exchange-traded fund traded on the
-  NASDAQ Stock Market under symbol BSCW (market category G). Published in the NASDAQ Trader symbol directory.
+description: Invesco BulletShares 2032 Corporate Bond ETF — a listed exchange-traded
+  fund traded on the NASDAQ Stock Market under symbol BSCW (market category G). Published
+  in the NASDAQ Trader symbol directory.
 liquidity: near-liquid
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/BSCW (NASDAQ Trader symbol directory listing:
-      BSCW)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/BSCW (NASDAQ Trader
+      symbol directory listing: BSCW)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - etf
 slug: bscw-invesco-bulletshares-2032-corporate-bond-et
+assigned_id: dea:financial-resource-bscw-invesco-bulletshares-2032-corporate-bond-et-p4qcxp
+admitted: '2026-11-15'

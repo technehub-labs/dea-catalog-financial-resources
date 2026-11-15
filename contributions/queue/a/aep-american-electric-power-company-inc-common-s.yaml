@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ AEP
 name: AEP — American Electric Power Company, Inc. - Common Stock
-description: American Electric Power Company, Inc. - Common Stock — a listed security traded on the NASDAQ
-  Stock Market under symbol AEP (market category Q). Published in the NASDAQ Trader symbol directory.
+description: American Electric Power Company, Inc. - Common Stock — a listed security
+  traded on the NASDAQ Stock Market under symbol AEP (market category Q). Published
+  in the NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/AEP (NASDAQ Trader symbol directory listing:
-      AEP)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/AEP (NASDAQ Trader symbol
+      directory listing: AEP)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: aep-american-electric-power-company-inc-common-s
+assigned_id: dea:financial-resource-aep-american-electric-power-company-inc-common-s-xauq2j
+admitted: '2026-11-15'

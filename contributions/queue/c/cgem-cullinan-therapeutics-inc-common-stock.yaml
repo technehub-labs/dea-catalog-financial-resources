@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ CGEM
 name: CGEM — Cullinan Therapeutics, Inc. - Common Stock
-description: Cullinan Therapeutics, Inc. - Common Stock — a listed security traded on the NASDAQ Stock
-  Market under symbol CGEM (market category Q). Published in the NASDAQ Trader symbol directory.
+description: Cullinan Therapeutics, Inc. - Common Stock — a listed security traded
+  on the NASDAQ Stock Market under symbol CGEM (market category Q). Published in the
+  NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/CGEM (NASDAQ Trader symbol directory listing:
-      CGEM)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/CGEM (NASDAQ Trader
+      symbol directory listing: CGEM)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: cgem-cullinan-therapeutics-inc-common-stock
+assigned_id: dea:financial-resource-cgem-cullinan-therapeutics-inc-common-stock-mjz2z6
+admitted: '2026-11-15'

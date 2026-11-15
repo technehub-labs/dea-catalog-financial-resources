@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ CHECU
 name: CHECU — Chenghe Acquisition III Co. - Units
-description: Chenghe Acquisition III Co. - Units — a listed security traded on the NASDAQ Stock Market
-  under symbol CHECU (market category G). Published in the NASDAQ Trader symbol directory.
+description: Chenghe Acquisition III Co. - Units — a listed security traded on the
+  NASDAQ Stock Market under symbol CHECU (market category G). Published in the NASDAQ
+  Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/CHECU (NASDAQ Trader symbol directory listing:
-      CHECU)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/CHECU (NASDAQ Trader
+      symbol directory listing: CHECU)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: checu-chenghe-acquisition-iii-co-units
+assigned_id: dea:financial-resource-checu-chenghe-acquisition-iii-co-units-y7k89t
+admitted: '2026-11-15'
