@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ CAPNU
 name: CAPNU — Cayson Acquisition Corp - Units
-description: Cayson Acquisition Corp - Units — a listed security traded on the NASDAQ Stock Market under
-  symbol CAPNU (market category G). Published in the NASDAQ Trader symbol directory.
+description: Cayson Acquisition Corp - Units — a listed security traded on the NASDAQ
+  Stock Market under symbol CAPNU (market category G). Published in the NASDAQ Trader
+  symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/CAPNU (NASDAQ Trader symbol directory listing:
-      CAPNU)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/CAPNU (NASDAQ Trader
+      symbol directory listing: CAPNU)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: capnu-cayson-acquisition-corp-units
+assigned_id: dea:financial-resource-capnu-cayson-acquisition-corp-units-cjwctv
+admitted: '2026-11-15'

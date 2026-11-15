@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ ARBB
 name: ARBB — ARB IOT Group Limited - Ordinary Shares
-description: ARB IOT Group Limited - Ordinary Shares — a listed security traded on the NASDAQ Stock Market
-  under symbol ARBB (market category S). Published in the NASDAQ Trader symbol directory.
+description: ARB IOT Group Limited - Ordinary Shares — a listed security traded on
+  the NASDAQ Stock Market under symbol ARBB (market category S). Published in the
+  NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/ARBB (NASDAQ Trader symbol directory listing:
-      ARBB)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/ARBB (NASDAQ Trader
+      symbol directory listing: ARBB)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: arbb-arb-iot-group-limited-ordinary-shares
+assigned_id: dea:financial-resource-arbb-arb-iot-group-limited-ordinary-shares-m3ee5m
+admitted: '2026-11-15'

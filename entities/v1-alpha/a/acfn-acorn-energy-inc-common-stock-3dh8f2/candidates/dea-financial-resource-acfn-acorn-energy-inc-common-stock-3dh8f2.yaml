@@ -1,0 +1,36 @@
+id: dea:financial-resource-acfn-acorn-energy-inc-common-stock-3dh8f2
+type: FinancialResource
+name: ACFN — Acorn Energy, Inc. - Common Stock
+description: Acorn Energy, Inc. - Common Stock — a listed security traded on the NASDAQ
+  Stock Market under symbol ACFN (market category S). Published in the NASDAQ Trader
+  symbol directory.
+version: 0.1.0
+lifecycle_status: proposed
+liquidity: instrument
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://www.nasdaq.com/market-activity/stocks/ACFN (NASDAQ Trader
+      symbol directory listing: ACFN)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-15'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- nasdaq
+- listed-security

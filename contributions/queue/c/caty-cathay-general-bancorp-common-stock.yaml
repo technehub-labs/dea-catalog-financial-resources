@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ CATY
 name: CATY — Cathay General Bancorp - Common Stock
-description: Cathay General Bancorp - Common Stock — a listed security traded on the NASDAQ Stock Market
-  under symbol CATY (market category Q). Published in the NASDAQ Trader symbol directory.
+description: Cathay General Bancorp - Common Stock — a listed security traded on the
+  NASDAQ Stock Market under symbol CATY (market category Q). Published in the NASDAQ
+  Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/CATY (NASDAQ Trader symbol directory listing:
-      CATY)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/CATY (NASDAQ Trader
+      symbol directory listing: CATY)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: caty-cathay-general-bancorp-common-stock
+assigned_id: dea:financial-resource-caty-cathay-general-bancorp-common-stock-qx7bpf
+admitted: '2026-11-15'

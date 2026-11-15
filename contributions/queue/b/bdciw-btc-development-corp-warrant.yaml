@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ BDCIW
 name: BDCIW — BTC Development Corp. - Warrant
-description: BTC Development Corp. - Warrant — a listed security traded on the NASDAQ Stock Market under
-  symbol BDCIW (market category G). Published in the NASDAQ Trader symbol directory.
+description: BTC Development Corp. - Warrant — a listed security traded on the NASDAQ
+  Stock Market under symbol BDCIW (market category G). Published in the NASDAQ Trader
+  symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/BDCIW (NASDAQ Trader symbol directory listing:
-      BDCIW)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/BDCIW (NASDAQ Trader
+      symbol directory listing: BDCIW)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: bdciw-btc-development-corp-warrant
+assigned_id: dea:financial-resource-bdciw-btc-development-corp-warrant-g994b5
+admitted: '2026-11-15'

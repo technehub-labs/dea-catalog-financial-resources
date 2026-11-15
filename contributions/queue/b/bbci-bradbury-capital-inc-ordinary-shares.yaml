@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ BBCI
 name: BBCI — Bradbury Capital Inc. - Ordinary Shares
-description: Bradbury Capital Inc. - Ordinary Shares — a listed security traded on the NASDAQ Stock Market
-  under symbol BBCI (market category G). Published in the NASDAQ Trader symbol directory.
+description: Bradbury Capital Inc. - Ordinary Shares — a listed security traded on
+  the NASDAQ Stock Market under symbol BBCI (market category G). Published in the
+  NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/BBCI (NASDAQ Trader symbol directory listing:
-      BBCI)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/BBCI (NASDAQ Trader
+      symbol directory listing: BBCI)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: bbci-bradbury-capital-inc-ordinary-shares
+assigned_id: dea:financial-resource-bbci-bradbury-capital-inc-ordinary-shares-jcjw3y
+admitted: '2026-11-15'

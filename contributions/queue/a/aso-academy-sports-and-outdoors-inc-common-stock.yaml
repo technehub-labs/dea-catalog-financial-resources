@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ ASO
 name: ASO — Academy Sports and Outdoors, Inc. - Common Stock
-description: Academy Sports and Outdoors, Inc. - Common Stock — a listed security traded on the NASDAQ
-  Stock Market under symbol ASO (market category Q). Published in the NASDAQ Trader symbol directory.
+description: Academy Sports and Outdoors, Inc. - Common Stock — a listed security
+  traded on the NASDAQ Stock Market under symbol ASO (market category Q). Published
+  in the NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/ASO (NASDAQ Trader symbol directory listing:
-      ASO)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/ASO (NASDAQ Trader symbol
+      directory listing: ASO)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: aso-academy-sports-and-outdoors-inc-common-stock
+assigned_id: dea:financial-resource-aso-academy-sports-and-outdoors-inc-common-stock-qh38yt
+admitted: '2026-11-15'

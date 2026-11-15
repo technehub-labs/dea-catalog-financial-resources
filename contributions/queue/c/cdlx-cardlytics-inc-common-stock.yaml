@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ CDLX
 name: CDLX — Cardlytics, Inc. - Common Stock
-description: Cardlytics, Inc. - Common Stock — a listed security traded on the NASDAQ Stock Market under
-  symbol CDLX (market category G). Published in the NASDAQ Trader symbol directory.
+description: Cardlytics, Inc. - Common Stock — a listed security traded on the NASDAQ
+  Stock Market under symbol CDLX (market category G). Published in the NASDAQ Trader
+  symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/CDLX (NASDAQ Trader symbol directory listing:
-      CDLX)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/CDLX (NASDAQ Trader
+      symbol directory listing: CDLX)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: cdlx-cardlytics-inc-common-stock
+assigned_id: dea:financial-resource-cdlx-cardlytics-inc-common-stock-tq2b7c
+admitted: '2026-11-15'

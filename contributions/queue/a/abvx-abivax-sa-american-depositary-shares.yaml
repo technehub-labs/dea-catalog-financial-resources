@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ ABVX
 name: ABVX — Abivax SA - American Depositary Shares
-description: Abivax SA - American Depositary Shares — a listed security traded on the NASDAQ Stock Market
-  under symbol ABVX (market category G). Published in the NASDAQ Trader symbol directory.
+description: Abivax SA - American Depositary Shares — a listed security traded on
+  the NASDAQ Stock Market under symbol ABVX (market category G). Published in the
+  NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/ABVX (NASDAQ Trader symbol directory listing:
-      ABVX)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/ABVX (NASDAQ Trader
+      symbol directory listing: ABVX)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: abvx-abivax-sa-american-depositary-shares
+assigned_id: dea:financial-resource-abvx-abivax-sa-american-depositary-shares-axd7ae
+admitted: '2026-11-15'

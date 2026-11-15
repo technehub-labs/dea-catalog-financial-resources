@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ BGGG
 name: BGGG — Baillie Gifford Long Term Global Growth ETF
-description: Baillie Gifford Long Term Global Growth ETF — a listed exchange-traded fund traded on the
-  NASDAQ Stock Market under symbol BGGG (market category G). Published in the NASDAQ Trader symbol directory.
+description: Baillie Gifford Long Term Global Growth ETF — a listed exchange-traded
+  fund traded on the NASDAQ Stock Market under symbol BGGG (market category G). Published
+  in the NASDAQ Trader symbol directory.
 liquidity: near-liquid
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/BGGG (NASDAQ Trader symbol directory listing:
-      BGGG)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/BGGG (NASDAQ Trader
+      symbol directory listing: BGGG)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - etf
 slug: bggg-baillie-gifford-long-term-global-growth-etf
+assigned_id: dea:financial-resource-bggg-baillie-gifford-long-term-global-growth-etf-k2k3ba
+admitted: '2026-11-15'

@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ CHSCN
 name: CHSCN — CHS Inc - Preferred Class B Series 2 Reset Rate
-description: CHS Inc - Preferred Class B Series 2 Reset Rate — a listed security traded on the NASDAQ
-  Stock Market under symbol CHSCN (market category Q). Published in the NASDAQ Trader symbol directory.
+description: CHS Inc - Preferred Class B Series 2 Reset Rate — a listed security traded
+  on the NASDAQ Stock Market under symbol CHSCN (market category Q). Published in
+  the NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/CHSCN (NASDAQ Trader symbol directory listing:
-      CHSCN)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/CHSCN (NASDAQ Trader
+      symbol directory listing: CHSCN)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: chscn-chs-inc-preferred-class-b-series-2-reset-r
+assigned_id: dea:financial-resource-chscn-chs-inc-preferred-class-b-series-2-reset-r-njbnk5
+admitted: '2026-11-15'

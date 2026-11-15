@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ CARZ
 name: CARZ — First Trust S-Network Future Vehicles & Technology ETF
-description: First Trust S-Network Future Vehicles & Technology ETF — a listed exchange-traded fund traded
-  on the NASDAQ Stock Market under symbol CARZ (market category G). Published in the NASDAQ Trader symbol
-  directory.
+description: First Trust S-Network Future Vehicles & Technology ETF — a listed exchange-traded
+  fund traded on the NASDAQ Stock Market under symbol CARZ (market category G). Published
+  in the NASDAQ Trader symbol directory.
 liquidity: near-liquid
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/CARZ (NASDAQ Trader symbol directory listing:
-      CARZ)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/CARZ (NASDAQ Trader
+      symbol directory listing: CARZ)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - etf
 slug: carz-first-trust-s-network-future-vehicles-techn
+assigned_id: dea:financial-resource-carz-first-trust-s-network-future-vehicles-techn-u7xhjp
+admitted: '2026-11-15'

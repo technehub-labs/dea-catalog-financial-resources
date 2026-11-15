@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ BMM
 name: BMM — Blue Moon Metals Inc. - Common Shares
-description: Blue Moon Metals Inc. - Common Shares — a listed security traded on the NASDAQ Stock Market
-  under symbol BMM (market category S). Published in the NASDAQ Trader symbol directory.
+description: Blue Moon Metals Inc. - Common Shares — a listed security traded on the
+  NASDAQ Stock Market under symbol BMM (market category S). Published in the NASDAQ
+  Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/BMM (NASDAQ Trader symbol directory listing:
-      BMM)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/BMM (NASDAQ Trader symbol
+      directory listing: BMM)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: bmm-blue-moon-metals-inc-common-shares
+assigned_id: dea:financial-resource-bmm-blue-moon-metals-inc-common-shares-ktzdnh
+admitted: '2026-11-15'

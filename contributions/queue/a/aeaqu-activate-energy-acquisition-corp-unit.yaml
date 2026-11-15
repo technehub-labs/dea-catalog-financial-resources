@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ AEAQU
 name: AEAQU — Activate Energy Acquisition Corp. - Unit
-description: Activate Energy Acquisition Corp. - Unit — a listed security traded on the NASDAQ Stock Market
-  under symbol AEAQU (market category G). Published in the NASDAQ Trader symbol directory.
+description: Activate Energy Acquisition Corp. - Unit — a listed security traded on
+  the NASDAQ Stock Market under symbol AEAQU (market category G). Published in the
+  NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/AEAQU (NASDAQ Trader symbol directory listing:
-      AEAQU)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/AEAQU (NASDAQ Trader
+      symbol directory listing: AEAQU)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: aeaqu-activate-energy-acquisition-corp-unit
+assigned_id: dea:financial-resource-aeaqu-activate-energy-acquisition-corp-unit-t4q37u
+admitted: '2026-11-15'

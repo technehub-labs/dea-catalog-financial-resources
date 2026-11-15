@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ CHTRP
-name: CHTRP — Charter Communications, Inc. - Series A Cumulative Redeemable Preferred Stock
-description: Charter Communications, Inc. - Series A Cumulative Redeemable Preferred Stock — a listed
-  security traded on the NASDAQ Stock Market under symbol CHTRP (market category Q). Published in the
-  NASDAQ Trader symbol directory.
+name: CHTRP — Charter Communications, Inc. - Series A Cumulative Redeemable Preferred
+  Stock
+description: Charter Communications, Inc. - Series A Cumulative Redeemable Preferred
+  Stock — a listed security traded on the NASDAQ Stock Market under symbol CHTRP (market
+  category Q). Published in the NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/CHTRP (NASDAQ Trader symbol directory listing:
-      CHTRP)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/CHTRP (NASDAQ Trader
+      symbol directory listing: CHTRP)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: chtrp-charter-communications-inc-series-a-cumula
+assigned_id: dea:financial-resource-chtrp-charter-communications-inc-series-a-cumula-nn7usg
+admitted: '2026-11-15'

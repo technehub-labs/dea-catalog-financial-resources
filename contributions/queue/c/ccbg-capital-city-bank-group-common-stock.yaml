@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ CCBG
 name: CCBG — Capital City Bank Group - Common Stock
-description: Capital City Bank Group - Common Stock — a listed security traded on the NASDAQ Stock Market
-  under symbol CCBG (market category Q). Published in the NASDAQ Trader symbol directory.
+description: Capital City Bank Group - Common Stock — a listed security traded on
+  the NASDAQ Stock Market under symbol CCBG (market category Q). Published in the
+  NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/CCBG (NASDAQ Trader symbol directory listing:
-      CCBG)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/CCBG (NASDAQ Trader
+      symbol directory listing: CCBG)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: ccbg-capital-city-bank-group-common-stock
+assigned_id: dea:financial-resource-ccbg-capital-city-bank-group-common-stock-a969p8
+admitted: '2026-11-15'

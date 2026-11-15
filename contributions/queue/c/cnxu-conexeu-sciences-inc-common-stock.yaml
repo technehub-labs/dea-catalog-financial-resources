@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ CNXU
 name: CNXU — Conexeu Sciences Inc. - Common Stock
-description: Conexeu Sciences Inc. - Common Stock — a listed security traded on the NASDAQ Stock Market
-  under symbol CNXU (market category S). Published in the NASDAQ Trader symbol directory.
+description: Conexeu Sciences Inc. - Common Stock — a listed security traded on the
+  NASDAQ Stock Market under symbol CNXU (market category S). Published in the NASDAQ
+  Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/CNXU (NASDAQ Trader symbol directory listing:
-      CNXU)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/CNXU (NASDAQ Trader
+      symbol directory listing: CNXU)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: cnxu-conexeu-sciences-inc-common-stock
+assigned_id: dea:financial-resource-cnxu-conexeu-sciences-inc-common-stock-ac8w6w
+admitted: '2026-11-15'

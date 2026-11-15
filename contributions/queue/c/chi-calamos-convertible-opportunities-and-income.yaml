@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ CHI
 name: CHI — Calamos Convertible Opportunities and Income Fund - Closed End Fund
-description: Calamos Convertible Opportunities and Income Fund - Closed End Fund — a listed security traded
-  on the NASDAQ Stock Market under symbol CHI (market category Q). Published in the NASDAQ Trader symbol
-  directory.
+description: Calamos Convertible Opportunities and Income Fund - Closed End Fund —
+  a listed security traded on the NASDAQ Stock Market under symbol CHI (market category
+  Q). Published in the NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/CHI (NASDAQ Trader symbol directory listing:
-      CHI)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/CHI (NASDAQ Trader symbol
+      directory listing: CHI)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: chi-calamos-convertible-opportunities-and-income
+assigned_id: dea:financial-resource-chi-calamos-convertible-opportunities-and-income-qqxndm
+admitted: '2026-11-15'

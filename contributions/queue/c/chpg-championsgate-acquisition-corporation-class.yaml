@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ CHPG
 name: CHPG — ChampionsGate Acquisition Corporation - Class A Ordinary Share
-description: ChampionsGate Acquisition Corporation - Class A Ordinary Share — a listed security traded
-  on the NASDAQ Stock Market under symbol CHPG (market category G). Published in the NASDAQ Trader symbol
-  directory.
+description: ChampionsGate Acquisition Corporation - Class A Ordinary Share — a listed
+  security traded on the NASDAQ Stock Market under symbol CHPG (market category G).
+  Published in the NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/CHPG (NASDAQ Trader symbol directory listing:
-      CHPG)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/CHPG (NASDAQ Trader
+      symbol directory listing: CHPG)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: chpg-championsgate-acquisition-corporation-class
+assigned_id: dea:financial-resource-chpg-championsgate-acquisition-corporation-class-jbe4hf
+admitted: '2026-11-15'

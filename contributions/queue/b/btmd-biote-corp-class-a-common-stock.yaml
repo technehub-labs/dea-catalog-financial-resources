@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ BTMD
 name: BTMD — Biote Corp. - Class A common stock
-description: Biote Corp. - Class A common stock — a listed security traded on the NASDAQ Stock Market
-  under symbol BTMD (market category G). Published in the NASDAQ Trader symbol directory.
+description: Biote Corp. - Class A common stock — a listed security traded on the
+  NASDAQ Stock Market under symbol BTMD (market category G). Published in the NASDAQ
+  Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/BTMD (NASDAQ Trader symbol directory listing:
-      BTMD)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/BTMD (NASDAQ Trader
+      symbol directory listing: BTMD)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: btmd-biote-corp-class-a-common-stock
+assigned_id: dea:financial-resource-btmd-biote-corp-class-a-common-stock-ceej5d
+admitted: '2026-11-15'

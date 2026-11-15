@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ CEVA
 name: CEVA — CEVA, Inc. - Common Stock
-description: CEVA, Inc. - Common Stock — a listed security traded on the NASDAQ Stock Market under symbol
-  CEVA (market category Q). Published in the NASDAQ Trader symbol directory.
+description: CEVA, Inc. - Common Stock — a listed security traded on the NASDAQ Stock
+  Market under symbol CEVA (market category Q). Published in the NASDAQ Trader symbol
+  directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/CEVA (NASDAQ Trader symbol directory listing:
-      CEVA)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/CEVA (NASDAQ Trader
+      symbol directory listing: CEVA)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: ceva-ceva-inc-common-stock
+assigned_id: dea:financial-resource-ceva-ceva-inc-common-stock-ej2bc4
+admitted: '2026-11-15'

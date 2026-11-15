@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ AVXX
 name: AVXX — Defiance Daily Target 2x Long AVAV ETF
-description: Defiance Daily Target 2x Long AVAV ETF — a listed exchange-traded fund traded on the NASDAQ
-  Stock Market under symbol AVXX (market category G). Published in the NASDAQ Trader symbol directory.
+description: Defiance Daily Target 2x Long AVAV ETF — a listed exchange-traded fund
+  traded on the NASDAQ Stock Market under symbol AVXX (market category G). Published
+  in the NASDAQ Trader symbol directory.
 liquidity: near-liquid
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/AVXX (NASDAQ Trader symbol directory listing:
-      AVXX)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/AVXX (NASDAQ Trader
+      symbol directory listing: AVXX)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - etf
 slug: avxx-defiance-daily-target-2x-long-avav-etf
+assigned_id: dea:financial-resource-avxx-defiance-daily-target-2x-long-avav-etf-7gz88v
+admitted: '2026-11-15'

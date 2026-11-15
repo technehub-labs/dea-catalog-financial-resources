@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ ARTNA
 name: ARTNA — Artesian Resources Corporation - Class A Non-Voting Common Stock
-description: Artesian Resources Corporation - Class A Non-Voting Common Stock — a listed security traded
-  on the NASDAQ Stock Market under symbol ARTNA (market category Q). Published in the NASDAQ Trader symbol
-  directory.
+description: Artesian Resources Corporation - Class A Non-Voting Common Stock — a
+  listed security traded on the NASDAQ Stock Market under symbol ARTNA (market category
+  Q). Published in the NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/ARTNA (NASDAQ Trader symbol directory listing:
-      ARTNA)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/ARTNA (NASDAQ Trader
+      symbol directory listing: ARTNA)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: artna-artesian-resources-corporation-class-a-non
+assigned_id: dea:financial-resource-artna-artesian-resources-corporation-class-a-non-2j2nwz
+admitted: '2026-11-15'

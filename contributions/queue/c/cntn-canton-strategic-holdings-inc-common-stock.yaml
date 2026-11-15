@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ CNTN
 name: CNTN — Canton Strategic Holdings, Inc. - Common Stock
-description: Canton Strategic Holdings, Inc. - Common Stock — a listed security traded on the NASDAQ Stock
-  Market under symbol CNTN (market category S). Published in the NASDAQ Trader symbol directory.
+description: Canton Strategic Holdings, Inc. - Common Stock — a listed security traded
+  on the NASDAQ Stock Market under symbol CNTN (market category S). Published in the
+  NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/CNTN (NASDAQ Trader symbol directory listing:
-      CNTN)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/CNTN (NASDAQ Trader
+      symbol directory listing: CNTN)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: cntn-canton-strategic-holdings-inc-common-stock
+assigned_id: dea:financial-resource-cntn-canton-strategic-holdings-inc-common-stock-wpfsge
+admitted: '2026-11-15'

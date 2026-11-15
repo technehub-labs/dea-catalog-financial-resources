@@ -1,24 +1,28 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ AGNCL
-name: AGNCL — AGNC Investment Corp. - Depositary Shares Each Representing a 1/1,000th Interest in a Share
-  of 7.75% Series G Fixed-Rate Reset Cumulative Redeemable Preferred Stock
-description: AGNC Investment Corp. - Depositary Shares Each Representing a 1/1,000th Interest in a Share
-  of 7.75% Series G Fixed-Rate Reset Cumulative Redeemable Preferred Stock — a listed security traded
-  on the NASDAQ Stock Market under symbol AGNCL (market category Q). Published in the NASDAQ Trader symbol
-  directory.
+name: AGNCL — AGNC Investment Corp. - Depositary Shares Each Representing a 1/1,000th
+  Interest in a Share of 7.75% Series G Fixed-Rate Reset Cumulative Redeemable Preferred
+  Stock
+description: AGNC Investment Corp. - Depositary Shares Each Representing a 1/1,000th
+  Interest in a Share of 7.75% Series G Fixed-Rate Reset Cumulative Redeemable Preferred
+  Stock — a listed security traded on the NASDAQ Stock Market under symbol AGNCL (market
+  category Q). Published in the NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/AGNCL (NASDAQ Trader symbol directory listing:
-      AGNCL)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/AGNCL (NASDAQ Trader
+      symbol directory listing: AGNCL)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: agncl-agnc-investment-corp-depositary-shares-eac
+assigned_id: dea:financial-resource-agncl-agnc-investment-corp-depositary-shares-eac-qg99vd
+admitted: '2026-11-15'
