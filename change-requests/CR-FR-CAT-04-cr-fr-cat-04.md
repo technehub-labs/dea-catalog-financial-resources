@@ -1,6 +1,8 @@
-# CR-FR-CAT-01: FinancialResource Candidate Admission Batch 02 (AAAP — Pacer Barings CLO Market Flex ETF … COWG — Pacer US Large Cap Cash Cows Growth Leaders ETF)
+# CR-FR-CAT-04: FinancialResource Candidate Admission Batch 02 (AAAP — Pacer Barings CLO Market Flex ETF … COWG — Pacer US Large Cap Cash Cows Growth Leaders ETF)
 
 **Status**: Landed (this PR)
+
+**Numbering correction**: this CR landed under `CR-FR-CAT-01`, colliding with the foundation/groundwork CR number of the same series. Renumbered to `CR-FR-CAT-04` by the naming-correction CR (BC-01A renumbering precedent); content unchanged.
 **Layer**: Catalog content (candidate corpus admission)
 **Owner**: Emmanuel A. Otchere
 **Date**: 2026-11-15
