@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: nasdaq-instruments.json
+source_ref: NASDAQ AGNCZ
+name: AGNCZ — AGNC Investment Corp. - Depositary Shares Each Representing a 1/1,000th Interest in a Share
+  of 8.75% Series H Fixed-Rate Cumulative Redeemable Preferred Stock
+description: AGNC Investment Corp. - Depositary Shares Each Representing a 1/1,000th Interest in a Share
+  of 8.75% Series H Fixed-Rate Cumulative Redeemable Preferred Stock — a listed security traded on the
+  NASDAQ Stock Market under symbol AGNCZ (market category Q). Published in the NASDAQ Trader symbol directory.
+liquidity: instrument
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://www.nasdaq.com/market-activity/stocks/AGNCZ (NASDAQ Trader symbol directory listing:
+      AGNCZ)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
+    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
+    classification is a canonical-admission decision.
+tags:
+- nasdaq
+- listed-security
+slug: agncz-agnc-investment-corp-depositary-shares-eac

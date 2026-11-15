@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: nasdaq-instruments.json
+source_ref: NASDAQ CRESY
+name: CRESY — Cresud S.A.C.I.F. y A. - American Depositary Shares, each representing ten shares of Common
+  Stock
+description: Cresud S.A.C.I.F. y A. - American Depositary Shares, each representing ten shares of Common
+  Stock — a listed security traded on the NASDAQ Stock Market under symbol CRESY (market category Q).
+  Published in the NASDAQ Trader symbol directory.
+liquidity: instrument
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://www.nasdaq.com/market-activity/stocks/CRESY (NASDAQ Trader symbol directory listing:
+      CRESY)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
+    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
+    classification is a canonical-admission decision.
+tags:
+- nasdaq
+- listed-security
+slug: cresy-cresud-s-a-c-i-f-y-a-american-depositary-s

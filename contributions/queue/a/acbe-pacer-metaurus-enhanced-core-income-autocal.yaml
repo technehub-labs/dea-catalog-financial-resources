@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: nasdaq-instruments.json
+source_ref: NASDAQ ACBE
+name: ACBE — Pacer Metaurus Enhanced Core Income Autocallable ETF
+description: Pacer Metaurus Enhanced Core Income Autocallable ETF — a listed exchange-traded fund traded
+  on the NASDAQ Stock Market under symbol ACBE (market category G). Published in the NASDAQ Trader symbol
+  directory.
+liquidity: near-liquid
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://www.nasdaq.com/market-activity/stocks/ACBE (NASDAQ Trader symbol directory listing:
+      ACBE)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
+    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
+    classification is a canonical-admission decision.
+tags:
+- nasdaq
+- etf
+slug: acbe-pacer-metaurus-enhanced-core-income-autocal

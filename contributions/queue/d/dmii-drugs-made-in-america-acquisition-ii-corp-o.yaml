@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: nasdaq-instruments.json
+source_ref: NASDAQ DMII
+name: DMII — Drugs Made In America Acquisition II Corp. - Ordinary Shares
+description: Drugs Made In America Acquisition II Corp. - Ordinary Shares — a listed security traded on
+  the NASDAQ Stock Market under symbol DMII (market category G). Published in the NASDAQ Trader symbol
+  directory.
+liquidity: instrument
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://www.nasdaq.com/market-activity/stocks/DMII (NASDAQ Trader symbol directory listing:
+      DMII)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
+    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
+    classification is a canonical-admission decision.
+tags:
+- nasdaq
+- listed-security
+slug: dmii-drugs-made-in-america-acquisition-ii-corp-o

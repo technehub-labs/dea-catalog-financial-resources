@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: nasdaq-instruments.json
+source_ref: NASDAQ ADAMO
+name: ADAMO — Adamas Trust, Inc. - 9.250% Senior Notes Due 2031
+description: Adamas Trust, Inc. - 9.250% Senior Notes Due 2031 — a listed security traded on the NASDAQ
+  Stock Market under symbol ADAMO (market category Q). Published in the NASDAQ Trader symbol directory.
+liquidity: instrument
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://www.nasdaq.com/market-activity/stocks/ADAMO (NASDAQ Trader symbol directory listing:
+      ADAMO)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
+    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
+    classification is a canonical-admission decision.
+tags:
+- nasdaq
+- listed-security
+slug: adamo-adamas-trust-inc-9-250-senior-notes-due-20

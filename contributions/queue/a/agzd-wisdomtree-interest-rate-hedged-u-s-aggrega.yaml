@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: nasdaq-instruments.json
+source_ref: NASDAQ AGZD
+name: AGZD — WisdomTree Interest Rate Hedged U.S. Aggregate Bond Fund
+description: WisdomTree Interest Rate Hedged U.S. Aggregate Bond Fund — a listed exchange-traded fund
+  traded on the NASDAQ Stock Market under symbol AGZD (market category G). Published in the NASDAQ Trader
+  symbol directory.
+liquidity: near-liquid
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://www.nasdaq.com/market-activity/stocks/AGZD (NASDAQ Trader symbol directory listing:
+      AGZD)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
+    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
+    classification is a canonical-admission decision.
+tags:
+- nasdaq
+- etf
+slug: agzd-wisdomtree-interest-rate-hedged-u-s-aggrega

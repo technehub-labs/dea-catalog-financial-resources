@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: nasdaq-instruments.json
+source_ref: NASDAQ CTAAR
+name: CTAAR — ClearThink 1 Acquisition Corp. - Rights
+description: ClearThink 1 Acquisition Corp. - Rights — a listed security traded on the NASDAQ Stock Market
+  under symbol CTAAR (market category G). Published in the NASDAQ Trader symbol directory.
+liquidity: instrument
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://www.nasdaq.com/market-activity/stocks/CTAAR (NASDAQ Trader symbol directory listing:
+      CTAAR)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
+    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
+    classification is a canonical-admission decision.
+tags:
+- nasdaq
+- listed-security
+slug: ctaar-clearthink-1-acquisition-corp-rights

@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: nasdaq-instruments.json
+source_ref: NASDAQ DGRW
+name: DGRW — WisdomTree U.S. Quality Dividend Growth Fund
+description: WisdomTree U.S. Quality Dividend Growth Fund — a listed exchange-traded fund traded on the
+  NASDAQ Stock Market under symbol DGRW (market category G). Published in the NASDAQ Trader symbol directory.
+liquidity: near-liquid
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://www.nasdaq.com/market-activity/stocks/DGRW (NASDAQ Trader symbol directory listing:
+      DGRW)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
+    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
+    classification is a canonical-admission decision.
+tags:
+- nasdaq
+- etf
+slug: dgrw-wisdomtree-u-s-quality-dividend-growth-fund
