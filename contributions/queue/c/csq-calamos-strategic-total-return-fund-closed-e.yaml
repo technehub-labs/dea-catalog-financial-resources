@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ CSQ
 name: CSQ — Calamos Strategic Total Return Fund - Closed End Fund
-description: Calamos Strategic Total Return Fund - Closed End Fund — a listed security traded on the NASDAQ
-  Stock Market under symbol CSQ (market category Q). Published in the NASDAQ Trader symbol directory.
+description: Calamos Strategic Total Return Fund - Closed End Fund — a listed security
+  traded on the NASDAQ Stock Market under symbol CSQ (market category Q). Published
+  in the NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/CSQ (NASDAQ Trader symbol directory listing:
-      CSQ)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/CSQ (NASDAQ Trader symbol
+      directory listing: CSQ)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: csq-calamos-strategic-total-return-fund-closed-e
+assigned_id: dea:financial-resource-csq-calamos-strategic-total-return-fund-closed-e-b86bgd
+admitted: '2026-11-15'

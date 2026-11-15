@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ DOO
 name: DOO — BRP Inc. - Common Subordinate Voting Shares
-description: BRP Inc. - Common Subordinate Voting Shares — a listed security traded on the NASDAQ Stock
-  Market under symbol DOO (market category Q). Published in the NASDAQ Trader symbol directory.
+description: BRP Inc. - Common Subordinate Voting Shares — a listed security traded
+  on the NASDAQ Stock Market under symbol DOO (market category Q). Published in the
+  NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/DOO (NASDAQ Trader symbol directory listing:
-      DOO)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/DOO (NASDAQ Trader symbol
+      directory listing: DOO)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: doo-brp-inc-common-subordinate-voting-shares
+assigned_id: dea:financial-resource-doo-brp-inc-common-subordinate-voting-shares-xvw3xg
+admitted: '2026-11-15'

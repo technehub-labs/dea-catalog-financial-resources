@@ -5,6 +5,10 @@ All notable changes to this catalog are documented here. Format follows
 
 ## [Unreleased]
 
+### CR-FR-CAT-02: FinancialResource Candidate Admission Batch 03
+
+Admitted 300 new `FinancialResource` CANDIDATE records through the gated intake workflow (queue gate → admission tool → catalog gates); ids content-derived and collision-checked; records land in `candidates/` subtrees at `lifecycle_status: proposed` / version 0.1.0; candidates count +300, canonical unchanged; queue entries flipped to `admitted`.
+
 ### CR-FR-CAT-01: FinancialResource Candidate Admission Batch 02
 
 Admitted 1200 new `FinancialResource` CANDIDATE records through the gated intake workflow (queue gate → admission tool → catalog gates); ids content-derived and collision-checked; records land in `candidates/` subtrees at `lifecycle_status: proposed` / version 0.1.0; candidates count +1200, canonical unchanged; queue entries flipped to `admitted`.

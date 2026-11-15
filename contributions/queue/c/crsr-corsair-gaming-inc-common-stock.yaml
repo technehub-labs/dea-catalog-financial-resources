@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ CRSR
 name: CRSR — Corsair Gaming, Inc. - Common Stock
-description: Corsair Gaming, Inc. - Common Stock — a listed security traded on the NASDAQ Stock Market
-  under symbol CRSR (market category Q). Published in the NASDAQ Trader symbol directory.
+description: Corsair Gaming, Inc. - Common Stock — a listed security traded on the
+  NASDAQ Stock Market under symbol CRSR (market category Q). Published in the NASDAQ
+  Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/CRSR (NASDAQ Trader symbol directory listing:
-      CRSR)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/CRSR (NASDAQ Trader
+      symbol directory listing: CRSR)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: crsr-corsair-gaming-inc-common-stock
+assigned_id: dea:financial-resource-crsr-corsair-gaming-inc-common-stock-5gm6uj
+admitted: '2026-11-15'

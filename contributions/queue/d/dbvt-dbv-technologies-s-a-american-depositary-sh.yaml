@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ DBVT
 name: DBVT — DBV Technologies S.A. - American Depositary Shares
-description: DBV Technologies S.A. - American Depositary Shares — a listed security traded on the NASDAQ
-  Stock Market under symbol DBVT (market category S). Published in the NASDAQ Trader symbol directory.
+description: DBV Technologies S.A. - American Depositary Shares — a listed security
+  traded on the NASDAQ Stock Market under symbol DBVT (market category S). Published
+  in the NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/DBVT (NASDAQ Trader symbol directory listing:
-      DBVT)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/DBVT (NASDAQ Trader
+      symbol directory listing: DBVT)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: dbvt-dbv-technologies-s-a-american-depositary-sh
+assigned_id: dea:financial-resource-dbvt-dbv-technologies-s-a-american-depositary-sh-baxp9m
+admitted: '2026-11-15'

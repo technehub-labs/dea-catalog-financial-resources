@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ DDIV
 name: DDIV — First Trust Dorsey Wright Momentum & Dividend ETF
-description: First Trust Dorsey Wright Momentum & Dividend ETF — a listed exchange-traded fund traded
-  on the NASDAQ Stock Market under symbol DDIV (market category G). Published in the NASDAQ Trader symbol
-  directory.
+description: First Trust Dorsey Wright Momentum & Dividend ETF — a listed exchange-traded
+  fund traded on the NASDAQ Stock Market under symbol DDIV (market category G). Published
+  in the NASDAQ Trader symbol directory.
 liquidity: near-liquid
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/DDIV (NASDAQ Trader symbol directory listing:
-      DDIV)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/DDIV (NASDAQ Trader
+      symbol directory listing: DDIV)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - etf
 slug: ddiv-first-trust-dorsey-wright-momentum-dividend
+assigned_id: dea:financial-resource-ddiv-first-trust-dorsey-wright-momentum-dividend-e9x8pz
+admitted: '2026-11-15'

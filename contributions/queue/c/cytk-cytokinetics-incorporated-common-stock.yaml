@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ CYTK
 name: CYTK — Cytokinetics, Incorporated - Common Stock
-description: Cytokinetics, Incorporated - Common Stock — a listed security traded on the NASDAQ Stock
-  Market under symbol CYTK (market category Q). Published in the NASDAQ Trader symbol directory.
+description: Cytokinetics, Incorporated - Common Stock — a listed security traded
+  on the NASDAQ Stock Market under symbol CYTK (market category Q). Published in the
+  NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/CYTK (NASDAQ Trader symbol directory listing:
-      CYTK)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/CYTK (NASDAQ Trader
+      symbol directory listing: CYTK)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: cytk-cytokinetics-incorporated-common-stock
+assigned_id: dea:financial-resource-cytk-cytokinetics-incorporated-common-stock-rx4yw2
+admitted: '2026-11-15'

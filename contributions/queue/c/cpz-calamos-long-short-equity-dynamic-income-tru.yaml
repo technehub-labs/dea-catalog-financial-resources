@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ CPZ
 name: CPZ — Calamos Long/Short Equity & Dynamic Income Trust - Closed End Fund
-description: Calamos Long/Short Equity & Dynamic Income Trust - Closed End Fund — a listed security traded
-  on the NASDAQ Stock Market under symbol CPZ (market category Q). Published in the NASDAQ Trader symbol
-  directory.
+description: Calamos Long/Short Equity & Dynamic Income Trust - Closed End Fund —
+  a listed security traded on the NASDAQ Stock Market under symbol CPZ (market category
+  Q). Published in the NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/CPZ (NASDAQ Trader symbol directory listing:
-      CPZ)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/CPZ (NASDAQ Trader symbol
+      directory listing: CPZ)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: cpz-calamos-long-short-equity-dynamic-income-tru
+assigned_id: dea:financial-resource-cpz-calamos-long-short-equity-dynamic-income-tru-spy6q7
+admitted: '2026-11-15'

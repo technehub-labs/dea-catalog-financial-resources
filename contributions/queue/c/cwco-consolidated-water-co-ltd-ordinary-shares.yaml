@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ CWCO
 name: CWCO — Consolidated Water Co. Ltd. - Ordinary Shares
-description: Consolidated Water Co. Ltd. - Ordinary Shares — a listed security traded on the NASDAQ Stock
-  Market under symbol CWCO (market category Q). Published in the NASDAQ Trader symbol directory.
+description: Consolidated Water Co. Ltd. - Ordinary Shares — a listed security traded
+  on the NASDAQ Stock Market under symbol CWCO (market category Q). Published in the
+  NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/CWCO (NASDAQ Trader symbol directory listing:
-      CWCO)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/CWCO (NASDAQ Trader
+      symbol directory listing: CWCO)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: cwco-consolidated-water-co-ltd-ordinary-shares
+assigned_id: dea:financial-resource-cwco-consolidated-water-co-ltd-ordinary-shares-y38kgj
+admitted: '2026-11-15'
