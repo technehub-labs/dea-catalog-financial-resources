@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ DLTR
 name: DLTR — Dollar Tree, Inc. - Common Stock
-description: Dollar Tree, Inc. - Common Stock — a listed security traded on the NASDAQ Stock Market under
-  symbol DLTR (market category Q). Published in the NASDAQ Trader symbol directory.
+description: Dollar Tree, Inc. - Common Stock — a listed security traded on the NASDAQ
+  Stock Market under symbol DLTR (market category Q). Published in the NASDAQ Trader
+  symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/DLTR (NASDAQ Trader symbol directory listing:
-      DLTR)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/DLTR (NASDAQ Trader
+      symbol directory listing: DLTR)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: dltr-dollar-tree-inc-common-stock
+assigned_id: dea:financial-resource-dltr-dollar-tree-inc-common-stock-wm9x6d
+admitted: '2026-11-15'

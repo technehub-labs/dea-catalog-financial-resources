@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ DALI
 name: DALI — First Trust Dorsey Wright DALI Equity ETF
-description: First Trust Dorsey Wright DALI Equity ETF — a listed exchange-traded fund traded on the NASDAQ
-  Stock Market under symbol DALI (market category G). Published in the NASDAQ Trader symbol directory.
+description: First Trust Dorsey Wright DALI Equity ETF — a listed exchange-traded
+  fund traded on the NASDAQ Stock Market under symbol DALI (market category G). Published
+  in the NASDAQ Trader symbol directory.
 liquidity: near-liquid
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/DALI (NASDAQ Trader symbol directory listing:
-      DALI)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/DALI (NASDAQ Trader
+      symbol directory listing: DALI)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - etf
 slug: dali-first-trust-dorsey-wright-dali-equity-etf
+assigned_id: dea:financial-resource-dali-first-trust-dorsey-wright-dali-equity-etf-96qwmx
+admitted: '2026-11-15'

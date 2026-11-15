@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ DAAQW
 name: DAAQW — Digital Asset Acquisition Corp. - Warrant
-description: Digital Asset Acquisition Corp. - Warrant — a listed security traded on the NASDAQ Stock
-  Market under symbol DAAQW (market category G). Published in the NASDAQ Trader symbol directory.
+description: Digital Asset Acquisition Corp. - Warrant — a listed security traded
+  on the NASDAQ Stock Market under symbol DAAQW (market category G). Published in
+  the NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/DAAQW (NASDAQ Trader symbol directory listing:
-      DAAQW)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/DAAQW (NASDAQ Trader
+      symbol directory listing: DAAQW)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: daaqw-digital-asset-acquisition-corp-warrant
+assigned_id: dea:financial-resource-daaqw-digital-asset-acquisition-corp-warrant-bf58j5
+admitted: '2026-11-15'

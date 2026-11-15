@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ CWD
 name: CWD — CaliberCos Inc. - Class A Common Stock
-description: CaliberCos Inc. - Class A Common Stock — a listed security traded on the NASDAQ Stock Market
-  under symbol CWD (market category S). Published in the NASDAQ Trader symbol directory.
+description: CaliberCos Inc. - Class A Common Stock — a listed security traded on
+  the NASDAQ Stock Market under symbol CWD (market category S). Published in the NASDAQ
+  Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/CWD (NASDAQ Trader symbol directory listing:
-      CWD)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/CWD (NASDAQ Trader symbol
+      directory listing: CWD)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: cwd-calibercos-inc-class-a-common-stock
+assigned_id: dea:financial-resource-cwd-calibercos-inc-class-a-common-stock-vrgw44
+admitted: '2026-11-15'

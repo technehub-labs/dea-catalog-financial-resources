@@ -1,44 +1,48 @@
-# CR-FR-CAT-02: Entity Ingestion Groundwork (candidate intake queue + gates)
+# CR-FR-CAT-02: FinancialResource Candidate Admission Batch 03 (COWS — Amplify Cash Flow Dividend Leaders ETF … DWAW — AdvisorShares Dorsey Wright FSM All Cap World ETF)
 
 **Status**: Landed (this PR)
-**Layer**: Catalog tooling (intake workflow)
+**Layer**: Catalog content (candidate corpus admission)
 **Owner**: Emmanuel A. Otchere
 **Date**: 2026-11-15
-**Admission authority**: tooling only (no records are admitted by this CR)
-**Trigger**: Skeleton-advance wave (2026-11 owner directive): advance the remaining kit skeletons with evidence-backed candidate corpora through the gated intake workflow, grounded in the metamodel projection of this catalogue. the NASDAQ Trader symbol directory (exchange's own published listing file) is the candidate seed source; liquidity mapping provisional.
+**Admission authority**: candidate corpus only (canonical admission remains the evidence-gated step; FOUNDATIONS D-5)
+**Trigger**: catalog population programme (2026-11 directive). This CR is one batch of the approved programme, executed through the gated intake workflow (queue gate → admission tool → catalog gates). Prepared by the authoring agent under eaojnr's direction; authorship of record per the Authorship Cardinal Rule (CR-BP-118).
 **Carrier**: Single PR on feature branch `feat/cr-fr-cat-02`. PR review, not direct push.
 **Lands against**: `main`
-**Depends on**: the catalogue foundation CR (kit bring-up); dea-metaframework v2.8.0 (released 2026-11-10 — the pin bump satisfies the CR-CATALOG-STRUCT-13 land-then-pin ordering).
+**Depends on**: the ingestion groundwork CR (intake machinery), the candidate corpus CR (queue population).
 
-## 1. Objective
+## 1. What this CR admits
 
-Stand up the gated intake workflow for the FinancialResource candidate corpus (catalog population programme): a contribution queue with a blocking gate and an admission tool that lands records in the CANDIDATE state (`candidates/` subtrees, `lifecycle_status: proposed`, version 0.1.0), leaving canonical admission to the FOUNDATIONS evidence gate (D-4/D-5).
+300 new `FinancialResource` CANDIDATE records, admitted from `contributions/queue/` by `scripts/admit_entity.py`:
 
-## 2. Changes
+| Type | Admitted |
+|---|---|
+| FinancialResource | 300 |
 
-1. `scripts/check_contributions.py` — the queue gate (blocking): validates every `contributions/queue/<shard>/<slug>.yaml` submission — no top-level `id` (ids are content-derived at admission), status vocabulary, identity fields, entity required-fields + enum membership derived from `schemas/entity.schema.json`, evidence contract (≥1 source of a known kind with a non-empty reference + ≥20-char rationale). Self-deriving: carries no per-repo constants.
-2. `scripts/admit_entity.py` — the admission tool: validates via the queue gate, mints the content-derived id `<prefix>-<slug>-<hash6>` (sha256 mod 31^6 over the intake content; collision-checked), scaffolds `entities/v1-alpha/<shard>/<slug>-<hash>/candidates/` with the record (`version: 0.1.0`, `lifecycle_status: proposed`, governance `approval_status: proposed`, one-step provenance ladder `candidate`, relationships deferred) + the per-record README (RECORD-STANDARD sections), and flips the queue entry to `status: admitted`.
-3. `contributions/intake-template.yaml` + `contributions/README.md` — the intake contract and the process (the CR-SVC-004 process, generalized to candidate-state semantics).
-4. `.github/workflows/validate-catalogue.yml` — new blocking step: "Run contribution queue gate" (queue gate added to the gate order).
-5. **Toolchain modernization (rider)**: metaframework pin `v2.6.0` → `v2.8.0` across the workflows and `dependencies.yaml`; `scripts/regenerate_catalog.py` and `scripts/check_catalog_index.py` re-vendored from dea-metaframework v2.8.0 (the shard-aware toolchain — candidate subtrees sharded under `entities/v1-alpha/<letter>/` at admission; the canonical v2.8.0 `regenerate_catalog.py` receives the documented shard-walk patch (`is_shard_dir` + depth-2 `list_subtrees`, the CR-SVC-016 / CR-MET-024 recipe) so candidate subtrees sharded under `entities/v1-alpha/<letter>/` enumerate; Vendored-copy-is-authoritative (CST-013/014) unchanged — repo-local patch recorded here).
-6. CHANGELOG `[Unreleased]` entry and this CR + index row.
+Each admission: id assigned by the content-derived hash (collision-checked against all record ids), entity subtree `entities/v1-alpha/<shard>/<slug>-<hash>/candidates/` (sharded per entity-storage-layout §4) carrying the record (`version: 0.1.0`, `lifecycle_status: proposed`) + per-record README (RECORD-STANDARD sections), queue entry flipped to `status: admitted` with `assigned_id`. Evidence sources are cited per record (`published-document` references from the corpus bank manifest); governance `approval_status: proposed` and a one-step provenance ladder (`candidate`) — honest pre-admission semantics. Relationships are deferred with an explicit README note (no canonical target ids are asserted at candidate state).
 
-## 3. What this CR does NOT do
+## 2. What changes
 
-- No records: the queue ships empty (`check_contributions.py` conforms on an empty queue; `entities/v1-alpha/` untouched).
-- No gate-semantics changes: the six existing gates keep their behavior; the queue gate is additive.
-- No canonical admissions: even after corpus CRs land, records stay candidate-state until their evidence-gated canonical CRs.
+- `300` entity subtrees under `entities/v1-alpha/<shard>/` (COWS — Amplify Cash Flow Dividend Leaders ETF … DWAW — AdvisorShares Dorsey Wright FSM All Cap World ETF)
+- `300` queue files moved to `status: admitted` with `assigned_id` + date
+- `CATALOG.yaml` regenerated (candidates count +300; canonical count unchanged)
+- This CR file, CHANGELOG entry, and index row
 
-## 4. Verification
+## 3. Verification
 
-1. `check_contributions.py` → CONFORMANT (empty queue).
-2. All six existing gates + the new queue gate green locally; `regenerate_catalog.py --check` exit 0 (re-vendored, shard-aware).
-3. `admit_entity.py --dry-run` on a sample intake yields a schema-legal record id and no writes.
-4. CI green on the PR (workflow diff is the pin bump + the new step).
+- `check_contributions.py`: CONFORMANT (queue valid post-admission)
+- `check_record_posture.py` / `check_schema.py` / `check_record_documentation.py`: CONFORMANT over the full tree (candidates included)
+- `regenerate_catalog.py --check`: CATALOG.yaml current
+- CI green on the landing PR
+
+## 4. NOT-List
+
+- NOT canonical admission: records stay candidate-state (`lifecycle_status: proposed`, version 0.1.0, in `candidates/`); the canonical counter is unchanged.
+- NOT a change to gates, schemas, or the intake tooling (groundwork CR artifacts untouched).
+- NOT a relationship assertion (explicitly deferred in each record README).
+- NOT a release/tag action.
 
 ## 5. Acceptance criteria
 
-1. The queue gate is wired as a blocking CI step and conforms on the empty queue.
-2. `admit_entity.py --dry-run` round-trips a sample submission without error.
-3. Pins resolve: every advertised metaframework release-tag pin in the workflows exists on origin (v2.8.0, released 2026-11-10).
-4. `register_version`/register row untouched; no records admitted.
+1. `CATALOG.yaml` `counts.candidates` increases by exactly 300; `counts.canonical` unchanged.
+2. All 300 queue files carry `status: admitted` and a recorded `assigned_id`.
+3. All repo gates green on the landing PR.

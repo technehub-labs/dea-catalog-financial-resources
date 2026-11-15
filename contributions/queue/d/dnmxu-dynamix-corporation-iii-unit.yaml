@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ DNMXU
 name: DNMXU — Dynamix Corporation III - Unit
-description: Dynamix Corporation III - Unit — a listed security traded on the NASDAQ Stock Market under
-  symbol DNMXU (market category G). Published in the NASDAQ Trader symbol directory.
+description: Dynamix Corporation III - Unit — a listed security traded on the NASDAQ
+  Stock Market under symbol DNMXU (market category G). Published in the NASDAQ Trader
+  symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/DNMXU (NASDAQ Trader symbol directory listing:
-      DNMXU)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/DNMXU (NASDAQ Trader
+      symbol directory listing: DNMXU)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: dnmxu-dynamix-corporation-iii-unit
+assigned_id: dea:financial-resource-dnmxu-dynamix-corporation-iii-unit-bcr2qf
+admitted: '2026-11-15'

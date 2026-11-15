@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: nasdaq-instruments.json
 source_ref: NASDAQ DFSC
 name: DFSC — DEFSEC Technologies Inc. - common stock, no R/S concurrent with offering
-description: DEFSEC Technologies Inc. - common stock, no R/S concurrent with offering — a listed security
-  traded on the NASDAQ Stock Market under symbol DFSC (market category S). Published in the NASDAQ Trader
-  symbol directory.
+description: DEFSEC Technologies Inc. - common stock, no R/S concurrent with offering
+  — a listed security traded on the NASDAQ Stock Market under symbol DFSC (market
+  category S). Published in the NASDAQ Trader symbol directory.
 liquidity: instrument
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.nasdaq.com/market-activity/stocks/DFSC (NASDAQ Trader symbol directory listing:
-      DFSC)'
-  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
-    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
-    classification is a canonical-admission decision.
+    reference: 'https://www.nasdaq.com/market-activity/stocks/DFSC (NASDAQ Trader
+      symbol directory listing: DFSC)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
 tags:
 - nasdaq
 - listed-security
 slug: dfsc-defsec-technologies-inc-common-stock-no-r-s
+assigned_id: dea:financial-resource-dfsc-defsec-technologies-inc-common-stock-no-r-s-tngejh
+admitted: '2026-11-15'
