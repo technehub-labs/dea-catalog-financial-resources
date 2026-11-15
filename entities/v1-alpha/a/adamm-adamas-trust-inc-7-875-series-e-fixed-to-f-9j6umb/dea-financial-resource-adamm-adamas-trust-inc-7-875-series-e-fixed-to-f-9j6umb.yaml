@@ -1,0 +1,47 @@
+id: dea:financial-resource-adamm-adamas-trust-inc-7-875-series-e-fixed-to-f-9j6umb
+type: FinancialResource
+name: ADAMM — Adamas Trust, Inc. - 7.875% Series E Fixed-to-Floating Rate Cumulative
+  Redeemable Preferred Stock
+description: Adamas Trust, Inc. - 7.875% Series E Fixed-to-Floating Rate Cumulative
+  Redeemable Preferred Stock — a listed security traded on the NASDAQ Stock Market
+  under symbol ADAMM (market category Q). Published in the NASDAQ Trader symbol directory.
+version: 0.1.0
+lifecycle_status: active
+liquidity: instrument
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://www.nasdaq.com/market-activity/stocks/ADAMM (NASDAQ Trader
+      symbol directory listing: ADAMM)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the
+    exchange's own published listing file). liquidity is provisional (near-liquid
+    for ETFs, instrument otherwise); per-organization classification is a canonical-admission
+    decision.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-15'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- nasdaq
+- listed-security
