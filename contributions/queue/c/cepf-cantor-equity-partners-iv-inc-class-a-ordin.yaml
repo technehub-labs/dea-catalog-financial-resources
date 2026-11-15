@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: nasdaq-instruments.json
+source_ref: NASDAQ CEPF
+name: CEPF — Cantor Equity Partners IV, Inc. - Class A Ordinary Shares
+description: Cantor Equity Partners IV, Inc. - Class A Ordinary Shares — a listed security traded on the
+  NASDAQ Stock Market under symbol CEPF (market category G). Published in the NASDAQ Trader symbol directory.
+liquidity: instrument
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://www.nasdaq.com/market-activity/stocks/CEPF (NASDAQ Trader symbol directory listing:
+      CEPF)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
+    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
+    classification is a canonical-admission decision.
+tags:
+- nasdaq
+- listed-security
+slug: cepf-cantor-equity-partners-iv-inc-class-a-ordin

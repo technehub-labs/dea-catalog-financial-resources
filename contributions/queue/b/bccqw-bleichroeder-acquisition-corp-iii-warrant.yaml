@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: nasdaq-instruments.json
+source_ref: NASDAQ BCCQW
+name: BCCQW — Bleichroeder Acquisition Corp. III - Warrant
+description: Bleichroeder Acquisition Corp. III - Warrant — a listed security traded on the NASDAQ Stock
+  Market under symbol BCCQW (market category G). Published in the NASDAQ Trader symbol directory.
+liquidity: instrument
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://www.nasdaq.com/market-activity/stocks/BCCQW (NASDAQ Trader symbol directory listing:
+      BCCQW)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
+    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
+    classification is a canonical-admission decision.
+tags:
+- nasdaq
+- listed-security
+slug: bccqw-bleichroeder-acquisition-corp-iii-warrant

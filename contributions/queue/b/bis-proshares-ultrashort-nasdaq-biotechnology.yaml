@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: nasdaq-instruments.json
+source_ref: NASDAQ BIS
+name: BIS — ProShares UltraShort Nasdaq Biotechnology
+description: ProShares UltraShort Nasdaq Biotechnology — a listed exchange-traded fund traded on the NASDAQ
+  Stock Market under symbol BIS (market category G). Published in the NASDAQ Trader symbol directory.
+liquidity: near-liquid
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://www.nasdaq.com/market-activity/stocks/BIS (NASDAQ Trader symbol directory listing:
+      BIS)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
+    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
+    classification is a canonical-admission decision.
+tags:
+- nasdaq
+- etf
+slug: bis-proshares-ultrashort-nasdaq-biotechnology

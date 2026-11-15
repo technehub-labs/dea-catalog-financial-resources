@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: nasdaq-instruments.json
+source_ref: NASDAQ ACRT
+name: ACRT — ProShares Russell 2000 Autocallable Income ETF
+description: ProShares Russell 2000 Autocallable Income ETF — a listed exchange-traded fund traded on
+  the NASDAQ Stock Market under symbol ACRT (market category G). Published in the NASDAQ Trader symbol
+  directory.
+liquidity: near-liquid
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://www.nasdaq.com/market-activity/stocks/ACRT (NASDAQ Trader symbol directory listing:
+      ACRT)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
+    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
+    classification is a canonical-admission decision.
+tags:
+- nasdaq
+- etf
+slug: acrt-proshares-russell-2000-autocallable-income

@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: nasdaq-instruments.json
+source_ref: NASDAQ AHIC
+name: AHIC — Allspring Short-Term High Income Fund ETF
+description: Allspring Short-Term High Income Fund ETF — a listed exchange-traded fund traded on the NASDAQ
+  Stock Market under symbol AHIC (market category G). Published in the NASDAQ Trader symbol directory.
+liquidity: near-liquid
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://www.nasdaq.com/market-activity/stocks/AHIC (NASDAQ Trader symbol directory listing:
+      AHIC)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
+    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
+    classification is a canonical-admission decision.
+tags:
+- nasdaq
+- etf
+slug: ahic-allspring-short-term-high-income-fund-etf

@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: nasdaq-instruments.json
+source_ref: NASDAQ BOLD
+name: BOLD — Boundless Bio, Inc. - Common Stock
+description: Boundless Bio, Inc. - Common Stock — a listed security traded on the NASDAQ Stock Market
+  under symbol BOLD (market category Q). Published in the NASDAQ Trader symbol directory.
+liquidity: instrument
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://www.nasdaq.com/market-activity/stocks/BOLD (NASDAQ Trader symbol directory listing:
+      BOLD)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
+    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
+    classification is a canonical-admission decision.
+tags:
+- nasdaq
+- listed-security
+slug: bold-boundless-bio-inc-common-stock

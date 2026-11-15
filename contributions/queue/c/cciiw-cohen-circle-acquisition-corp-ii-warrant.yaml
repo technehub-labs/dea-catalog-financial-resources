@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: nasdaq-instruments.json
+source_ref: NASDAQ CCIIW
+name: CCIIW — Cohen Circle Acquisition Corp. II - Warrant
+description: Cohen Circle Acquisition Corp. II - Warrant — a listed security traded on the NASDAQ Stock
+  Market under symbol CCIIW (market category G). Published in the NASDAQ Trader symbol directory.
+liquidity: instrument
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://www.nasdaq.com/market-activity/stocks/CCIIW (NASDAQ Trader symbol directory listing:
+      CCIIW)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
+    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
+    classification is a canonical-admission decision.
+tags:
+- nasdaq
+- listed-security
+slug: cciiw-cohen-circle-acquisition-corp-ii-warrant

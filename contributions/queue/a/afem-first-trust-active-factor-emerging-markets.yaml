@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: nasdaq-instruments.json
+source_ref: NASDAQ AFEM
+name: AFEM — First Trust Active Factor Emerging Markets ETF
+description: First Trust Active Factor Emerging Markets ETF — a listed exchange-traded fund traded on
+  the NASDAQ Stock Market under symbol AFEM (market category G). Published in the NASDAQ Trader symbol
+  directory.
+liquidity: near-liquid
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://www.nasdaq.com/market-activity/stocks/AFEM (NASDAQ Trader symbol directory listing:
+      AFEM)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
+    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
+    classification is a canonical-admission decision.
+tags:
+- nasdaq
+- etf
+slug: afem-first-trust-active-factor-emerging-markets

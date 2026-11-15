@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: nasdaq-instruments.json
+source_ref: NASDAQ CHAD
+name: CHAD — DeFi Development Corp. - Variable Rate Series C Perpetual Preferred Stock
+description: DeFi Development Corp. - Variable Rate Series C Perpetual Preferred Stock — a listed security
+  traded on the NASDAQ Stock Market under symbol CHAD (market category S). Published in the NASDAQ Trader
+  symbol directory.
+liquidity: instrument
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://www.nasdaq.com/market-activity/stocks/CHAD (NASDAQ Trader symbol directory listing:
+      CHAD)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
+    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
+    classification is a canonical-admission decision.
+tags:
+- nasdaq
+- listed-security
+slug: chad-defi-development-corp-variable-rate-series

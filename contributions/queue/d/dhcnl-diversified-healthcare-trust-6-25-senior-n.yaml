@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: nasdaq-instruments.json
+source_ref: NASDAQ DHCNL
+name: DHCNL — Diversified Healthcare Trust  - 6.25% Senior Notes Due 2046
+description: Diversified Healthcare Trust  - 6.25% Senior Notes Due 2046 — a listed security traded on
+  the NASDAQ Stock Market under symbol DHCNL (market category Q). Published in the NASDAQ Trader symbol
+  directory.
+liquidity: instrument
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://www.nasdaq.com/market-activity/stocks/DHCNL (NASDAQ Trader symbol directory listing:
+      DHCNL)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
+    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
+    classification is a canonical-admission decision.
+tags:
+- nasdaq
+- listed-security
+slug: dhcnl-diversified-healthcare-trust-6-25-senior-n

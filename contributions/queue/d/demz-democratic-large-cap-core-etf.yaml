@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: nasdaq-instruments.json
+source_ref: NASDAQ DEMZ
+name: DEMZ — Democratic Large Cap Core ETF
+description: Democratic Large Cap Core ETF — a listed exchange-traded fund traded on the NASDAQ Stock
+  Market under symbol DEMZ (market category G). Published in the NASDAQ Trader symbol directory.
+liquidity: near-liquid
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://www.nasdaq.com/market-activity/stocks/DEMZ (NASDAQ Trader symbol directory listing:
+      DEMZ)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
+    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
+    classification is a canonical-admission decision.
+tags:
+- nasdaq
+- etf
+slug: demz-democratic-large-cap-core-etf

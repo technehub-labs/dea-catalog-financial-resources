@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: nasdaq-instruments.json
+source_ref: NASDAQ ACAAW
+name: ACAAW — Averin Capital Acquisition Corp. - Warrants
+description: Averin Capital Acquisition Corp. - Warrants — a listed security traded on the NASDAQ Stock
+  Market under symbol ACAAW (market category G). Published in the NASDAQ Trader symbol directory.
+liquidity: instrument
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://www.nasdaq.com/market-activity/stocks/ACAAW (NASDAQ Trader symbol directory listing:
+      ACAAW)'
+  rationale: Cited from the NASDAQ Trader symbol directory (nasdaqlisted.txt, the exchange's own published
+    listing file). liquidity is provisional (near-liquid for ETFs, instrument otherwise); per-organization
+    classification is a canonical-admission decision.
+tags:
+- nasdaq
+- listed-security
+slug: acaaw-averin-capital-acquisition-corp-warrants
