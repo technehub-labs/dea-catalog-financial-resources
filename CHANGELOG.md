@@ -5,6 +5,10 @@ All notable changes to this catalog are documented here. Format follows
 
 ## [Unreleased]
 
+### CR-FR-CAT-07: Canonical Admission Wave
+
+1500 FinancialResource records promoted from the candidate slot to the canonical slot (provenance ladder completed per record; evidence citations preserved; ids untouched). Index: canonical 1500, candidates 0. All gates green.
+
 ### CR-FR-CAT-05: FinancialResource Candidate Admission Batch 03
 
 Admitted 300 new `FinancialResource` CANDIDATE records through the gated intake workflow (queue gate → admission tool → catalog gates); ids content-derived and collision-checked; records land in `candidates/` subtrees at `lifecycle_status: proposed` / version 0.1.0; candidates count +300, canonical unchanged; queue entries flipped to `admitted`.
